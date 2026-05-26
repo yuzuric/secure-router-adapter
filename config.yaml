@@ -1,0 +1,5 @@
+# secure-router-adapter configuration
+model: ${MIMO_MODEL:-mimo-7b}
+apiKey: ${MIMO_API_KEY}
+mimoApiBase: ${MIMO_API_BASE:-https://api.xiaomi-mimo.com/v1}
+maxParallel: 4
